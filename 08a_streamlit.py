@@ -8,7 +8,7 @@ import spacy_streamlit
 import streamlit as st
 
 
-DEFAULT_TEXT = """Hagrid had a lovely pet called Fluffy. Harry Potter fought against a basilisk. Ronan was a centaur while Ron Weasley and Hermione Granger were Harry's friends. Dobby was a house-elf, a mythological creature such as Griphook, a goblin. The model has been custom trained to identify human-ish characters such as Lord Voldemort from mythological creatures such as Fang. \n \n I can develop NLP machine learning models for any specialized domain, with custom-defined entity types (such as MYTH in this example) that must be identified through documents."""
+DEFAULT_TEXT = """Hagrid had a lovely pet called Fluffy. Harry Potter fought against a basilisk. Ronan was a centaur while Ron Weasley and Hermione Granger were Harry's friends. Dobby was a house-elf, a mythological creature such as Griphook, a goblin. The model has been custom trained to identify human-ish characters such as Lord Voldemort from mythological creatures such as the Phoenix. \n \n I can develop NLP machine learning models for any specialized domain, with custom-defined entity types (such as MYTH in this example) that must be identified through documents."""
 
 
 spacy_model = "training/NER_Book_03/model-best"
