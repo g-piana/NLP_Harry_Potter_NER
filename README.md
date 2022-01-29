@@ -30,7 +30,7 @@
 <h3 align="center">Harry Potter | Humans and Myths</h3>
 
   <p align="center">
-    Using the spaCy framework I developed a specialized dataset to train a NER model on custom entity recognition which I then rendered using Streamlit.
+    Using the spaCy framework I developed a specialized dataset and a NER model on custom entity recognition which I then rendered using Streamlit.
     <br />
     <a href="https://share.streamlit.io/g-piana/nlp_harry_potter_ner/main/08a_streamlit.py">View Demo</a>
     ·
@@ -64,7 +64,6 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -73,9 +72,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][Streamlit]](https://share.streamlit.io/g-piana/nlp_harry_potter_ner/main/08a_streamlit.py)
+[Active demo](https://share.streamlit.io/g-piana/nlp_harry_potter_ner/main/08a_streamlit.py)
 
-The purpose of this project is to test an end to end workflow from dataset preparation to deployment. As usual, most of the effort goes into creating a high quality dataset to train a custom model. However, the spaCy framework makes this type of efforts relatively smooth.
+The purpose of this project is to test an end-to-end workflow from dataset preparation to deployment. 
+As usual, most of the effort goes into creating a high quality dataset to train a custom model. 
+However, the spaCy framework makes this type of efforts relatively smooth, and the innovations introduced with spaCy 3.x enable rapid prototyping and robust, controlled experimentation.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -85,7 +86,7 @@ The purpose of this project is to test an end to end workflow from dataset prepa
 
 * [Python](https://python.org/)
 * [spaCy](https://spacy.io/)
-* [Streamlit](https://streamlit.io/)
+* [Streamlit](https://github.com/explosion/spacy-streamlit)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -93,20 +94,18 @@ The purpose of this project is to test an end to end workflow from dataset prepa
 
 <!-- GETTING STARTED -->
 ## Getting Started
+- [ ] Git clone the repo into your local environment.
+- [ ] Create a virtual env and activate it
+- [ ] Install spacy-streamlit and streamlit
+- [ ] Run the streamlit application to serve to your browser
 
-On the main root just issue:
-  ```sh
-streamlit run 08a_streamlit.py
-  ```
-
-It should open a local window in your browser.
 
 ### Prerequisites
-I would recommend using a virtual environment. I like using Anaconda. 
+I would recommend using a virtual environment. I personally like using the Anaconda framework. 
 
 * spacy_streamlit
   ```sh
-  conda install -c conda-forge spacy-streamlit
+  pip install spacy-streamlit
   ```
 * streamlit
   ```sh
@@ -114,16 +113,19 @@ I would recommend using a virtual environment. I like using Anaconda.
   ```
 
 ### Installation
-
-The model should run as it is. 
-
+  ```sh
+  git clone https://github.com/g-piana/NLP_Harry_Potter_NER.git
+  ```
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+On the main root just issue:
+  ```sh
+streamlit run 08a_streamlit.py
+  ```
 
+It should open a local window in your browser.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -181,12 +183,7 @@ Project Link: [https://github.com/g-piana/nlp_harry_potter_ner](https://github.c
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
 
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
