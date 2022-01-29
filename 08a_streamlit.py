@@ -25,5 +25,5 @@ spacy_streamlit.visualize_ner(
     colors={"MYTH": "green"}
 )
 st.text(f"Analyzed using spaCy model {spacy_model}\n")
-st.markdown("I develop scalable NLP machine learning models for any specialized domain to identify custom-defined entity types (such as MYTH in this example) through a massive amount of documents.")
+st.markdown("I develop scalable NLP machine learning models for any specialized domain. A typical use-case includes processing a massive amount of documents to identify custom-defined entity types (such as MYTH in this example).")
 st.markdown(f"Developed by [Giulio Piana](https://giuliopiana.com)")
